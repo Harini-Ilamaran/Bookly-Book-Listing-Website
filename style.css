@@ -74,7 +74,6 @@ html, body {
 .book-container h1 {
     color: black;
     text-align: left;
-    line-height: 1.2em;
 }
 
 .book-container button {
@@ -236,7 +235,7 @@ html, body {
     .book-container p, .popup-box input,
 .popup-box textarea {
         font-size: 0.9rem;
-        line-height: 1.6;
+        line-height: 1.7;
     }
 
 
