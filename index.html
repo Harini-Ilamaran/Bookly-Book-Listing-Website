@@ -14,7 +14,7 @@
     <div id="navbar">
         <h1><i class="fa-solid fa-wand-magic-sparkles fa-2xs"></i> Bookly</h1>
         <div class="search-container">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-magnifying-glass" id="toggle-search"></i>
         <input type="text" id="search-bar" placeholder="Search Books...">
         </div>
     </div>
@@ -47,6 +47,19 @@
             </div>
         </div>
 
+        <div class="book-container">
+            <div>
+            <h1>Verity</h1>
+            <h3>Colleen Hoover</h3>
+            <p><i class="fas fa-star" style="color:#bf69cf"></i>
+               <i class="fas fa-star" style="color:#bf69cf"></i>
+               <i class="fas fa-star" style="color:#bf69cf"></i>
+              <i class="fas fa-star" style="color:#bf69cf"></i></p>
+            <p>Lowen Ashleigh is a writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish.</p>
+            <button onclick="deletebook(event)">Delete</button>
+            </div>
+        </div>
+        
         <div class="book-container">
             <div>
             <h1>Verity</h1>

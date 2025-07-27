@@ -55,16 +55,12 @@ addbook.addEventListener("click",function(event){
 })
 
 //Delete Button
-// function deletebook(event){
-//     event.target.parentElement.remove()
-// }
 function deletebook(event){
     const bookCard = event.target.closest('.book-container');
     if (bookCard) {
         bookCard.remove();
     }
 }
-
  
 //Search Button
 var searchBar = document.getElementById("search-bar");
@@ -84,6 +80,3 @@ searchBar.addEventListener("input", function () {
         }
     });
 });
-
-
-
