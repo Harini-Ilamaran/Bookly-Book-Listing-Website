@@ -73,6 +73,8 @@ html, body {
 
 .book-container h1 {
     color: black;
+    text-align: left;
+    line-height: 1.2em;
 }
 
 .book-container button {
