@@ -6,8 +6,8 @@
 
 html, body {
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    min-height: 100vh; /* Ensure full viewport height */
+    overflow-x: hidden; 
+    min-height: 100vh; 
 }
 
 #navbar {
@@ -170,7 +170,6 @@ html, body {
     cursor: pointer;
 }
 
-/* ---------- Responsive Enhancements ---------- */
 
 @media (max-width: 768px) {
     #search-bar {
