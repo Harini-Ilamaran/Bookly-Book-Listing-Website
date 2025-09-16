@@ -2,6 +2,7 @@
 
 Bookly is a sleek, client-side web application designed to be your digital bookshelf. It helps you keep a curated list of books you've read or want to read, complete with your own ratings and notes.
 
+
 ✨ **Features**
 
 **CRUD Operations:** Create, Read, and Delete book entries.
@@ -14,5 +15,7 @@ Bookly is a sleek, client-side web application designed to be your digital books
 
 **Modal Popup Form:** Add new books through a clean, focused form overlay.
 
+
 🚀 **Live Demo**
+
 Check out the live demo here: https://harini-ilamaran.github.io/Bookly-Book-Listing-Website/
